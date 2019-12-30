@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <section class="checkbox__container">
+
+            <div class="checkbox__item">
+                <input class="checkbox__element" type="checkbox" id="bold">
+                <label class="checkbox__mark" for="bold"><i class="fa fa-bold" aria-hidden="true"></i></label>
+            </div>
+
+            <div class="checkbox__item">
+                <input class="checkbox__element" type="checkbox" id="italic">
+                <label class="checkbox__mark" for="italic"><i class="fa fa-italic" aria-hidden="true"></i></label>
+            </div>
+
+            <div class="checkbox__item">
+                <input class="checkbox__element" type="checkbox" id="underline">
+                <label class="checkbox__mark" for="underline"><i class="fa fa-underline" aria-hidden="true"></i></label>
+            </div>
+
+            <div class="checkbox__item">
+                <input class="checkbox__element" type="checkbox" id="line-through">
+                <label class="checkbox__mark" for="line-through"><i class="fa fa-strikethrough"
+                        aria-hidden="true"></i></label>
+            </div>
+
+        </section>
+
+        <section class="textalign__container">
+
+            <div class="textalign__item">
+                <input class="radio__element" type="radio" name="textalign" data-align="left" id="alignleft">
+                <label class="radio__mark" for="alignleft"><i class="fa fa-align-left" aria-hidden="true"></i></label>
+            </div>
+
+            <div class="textalign__item">
+                <input class="radio__element" type="radio" name="textalign" data-align="center" id="aligncenter">
+                <label class="radio__mark" for="aligncenter"><i class="fa fa-align-center"
+                        aria-hidden="true"></i></label>
+            </div>
+
+            <div class="textalign__item">
+                <input class="radio__element" type="radio" name="textalign" data-align="right" id="alignright">
+                <label class="radio__mark" for="alignright"><i class="fa fa-align-right" aria-hidden="true"></i></label>
+            </div>
+
+        </section>
+
+        <section class="fontfamily__container">
+
+            <button class="fontfamily__btn" id="fontFamilyDropdownBtn">
+                <i class="fa fa-font"></i>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <ul class="fontfamily__list" id="fontFamilyDropdown">
+                <li class="fontfamily__item" data-font='Arial' style="font-family: Arial">Arial</li>
+                <li class="fontfamily__item" data-font='Georgia' style="font-family: Georgia">Georgia</li>
+                <li class="fontfamily__item" data-font='Impact' style="font-family: Impact">Impact</li>
+                <li class="fontfamily__item" data-font='Tahoma' style="font-family: Tahoma">Tahoma</li>
+                <li class="fontfamily__item" data-font='Times New Roman' style="font-family: Times New Roman">Times New
+                    Roman</li>
+                <li class="fontfamily__item" data-font='Verdana' style="font-family: Verdana">Verdana</li>
+            </ul>
+
+        </section>
+
+        <section class="fontsize__container">
+
+            <button class="fontsize__btn" id="fontSizeDropdownBtn">
+                <i class="fa fa-text-height" aria-hidden="true"></i>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <ul class="fontsize__list" id="fontSizeDropdown">
+                <li class="fontsize__item" data-fontsize='12' style='font-size: 12px'>12px</li>
+                <li class="fontsize__item" data-fontsize='14' style='font-size: 14px'>14px</li>
+                <li class="fontsize__item" data-fontsize='16' style='font-size: 16px'>16px</li>
+                <li class="fontsize__item" data-fontsize='18' style='font-size: 18px'>18px</li>
+                <li class="fontsize__item" data-fontsize='20' style='font-size: 20px'>20px</li>
+                <li class="fontsize__item" data-fontsize='22' style='font-size: 22px'>22px</li>
+                <li class="fontsize__item" data-fontsize='25' style='font-size: 25px'>25px</li>
+                <li class="fontsize__item" data-fontsize='30' style='font-size: 30px'>30px</li>
+            </ul>
+
+        </section>
+
+    </header>
+
+    <main>
+
+        <div class="text__container" id="styleData">
+
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae!</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae!</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae!</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae!</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae!</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae!</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae!</p>
+
+        </div>
+
+    </main>
+
+    <script src="./mainJS/checkboxes.js"></script>
+    <script src="./mainJS/radiobuttons.js"></script>
+    <script src="./mainJS/dropdownLists.js"></script>
+    <script src="https://use.fontawesome.com/e3d788a2cb.js"></script>
+
+</body>
+
+</html>
