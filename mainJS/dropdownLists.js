@@ -34,7 +34,6 @@ fontFamilyList.addEventListener('click', function (e) {
 });
 
 
-
 // get the font-size button from DOM
 
 let fontSizeBtn = document.querySelector('#fontSizeDropdownBtn');
